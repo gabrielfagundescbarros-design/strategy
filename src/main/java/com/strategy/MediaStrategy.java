@@ -10,6 +10,7 @@ public interface MediaStrategy {
      * @param p2 nota da segunda avaliação
      * @return média calculada
      */
+    
     double calcularMedia(double p1, double p2);
     
     /**
