@@ -6,7 +6,7 @@ public class Main {
         MediaStrategy arit = new Aritmetica();
         Disciplina d = new Disciplina(arit);
         
-        d.setNome("Padrões de Desenvolvimento");
+        d.setNome("Padrões de Desenvolvimento Aritméticos");
         d.setP1(10);
         d.setP2(5);
         d.calcularMedia();
@@ -20,7 +20,7 @@ public class Main {
         MediaStrategy geom = new Geometrica();
         Disciplina f = new Disciplina(geom);
 
-        f.setNome("Padrões de Desenvolvimento");
+        f.setNome("Padrões de Desenvolvimento Geométricos");
         f.setP1(10);
         f.setP2(5);
         f.calcularMedia();
